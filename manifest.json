@@ -1,0 +1,19 @@
+{
+    "name": "Classification Of Point Out",
+    "description": "レビュー指摘の分類情報挿入",
+    "version": "0.1",
+    "content_scripts": [{
+      "js": ["js/jquery.js", "js/jquery.caret.js", "js/jquery.atwho.js", "js/xregexp-all-min.js", "js/copo_data.js", "js/ClassificationOfPointOut.js"],
+      "css": ["css/jquery.atwho.css"],
+      "matches": ["http://*/*", "https://*/*"]
+    }],
+    "icons": {
+        "48": "icon/icon48.png",
+        "128": "icon/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": "icon/icon48.png",
+        "default_title": "Classification Of Point Out"
+    },
+    "manifest_version": 2
+}
